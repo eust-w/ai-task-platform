@@ -24,6 +24,15 @@ Credentials are pinned to same-origin requests. Artifacts require owner authenti
 Provider errors are sanitized. Uploaded images and upstream results have size/format limits.
 Task IDs, ownership, quotas, concurrency, retention and idempotency have regression tests.
 
+## Public Release Gate
+
+[GitHub Actions run 40767587426](https://github.com/eust-w/ai-task-platform/actions/runs/40767587426)
+passed the backend, frontend and container jobs for the Alpha release source.
+The [release](https://github.com/eust-w/ai-task-platform/releases/tag/v0.1.0-alpha.1)
+contains the verified landscape/portrait videos, subtitles and covers.
+Public-page playback was verified for YouTube, Bilibili, Douyin and X in a signed-in
+browser; anonymous access and every region/device were not independently tested.
+
 ## Not Verified / Not Claimed
 
 - No paid-provider image or chat request was executed: no provider key was supplied.
@@ -31,6 +40,6 @@ Task IDs, ownership, quotas, concurrency, retention and idempotency have regress
 - No load test, penetration-test certification, HA guarantee or legal compliance certification.
 - No changes were made to an existing production deployment. These fixes are not a claim
   that a separate legacy production instance has been patched.
-- Social uploads, review acceptance and public playback are separate states; see the
-  local publication evidence recorded during the actual launch.
+- Social uploads, review acceptance and public playback are separate states; see
+  [publication status](publication.md). Private screenshots remain outside Git.
 - One known test-only deprecation warning comes from Starlette's current httpx TestClient bridge.

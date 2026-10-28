@@ -82,7 +82,8 @@ def main():
     args = parser.parse_args()
     build = args.output / "render"
     build.mkdir(parents=True, exist_ok=True)
-    font = lambda size: ImageFont.truetype(args.font, size)
+    def font(size):
+        return ImageFont.truetype(args.font, size)
     durations, cues, elapsed = [], [], 0.0
     for index, (_, _, _, sentences) in enumerate(SCENES):
         paths, local = [], 0.0

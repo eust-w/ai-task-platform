@@ -10,6 +10,16 @@
 
 ![工作台](docs/images/workspace.jpg)
 
+## 版本与介绍视频
+
+[下载 v0.1.0-alpha.1](https://github.com/eust-w/ai-task-platform/releases/tag/v0.1.0-alpha.1)，
+包含横竖版介绍视频、字幕与封面。
+在线观看：[B站](https://www.bilibili.com/video/BV1gms96TE8j/) ·
+[YouTube](https://www.youtube.com/watch?v=YGa4kcTBZ9s) ·
+[抖音](https://www.douyin.com/video/7701826028804508938) ·
+[X](https://x.com/eustancewu/status/2115549897919516890)。
+详见 [验收范围](docs/launch/validation.md) 与 [各平台发布状态](docs/launch/publication.md)。
+
 ## 可以做什么
 
 - 文生图、图生图与多参考图上传，最多 8 张。

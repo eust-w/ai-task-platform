@@ -12,6 +12,15 @@
 
 ![AI Task Platform workspace](docs/images/workspace.jpg)
 
+## Alpha Release and Video
+
+[Download v0.1.0-alpha.1](https://github.com/eust-w/ai-task-platform/releases/tag/v0.1.0-alpha.1)
+includes the introduction videos, subtitles and covers.
+Watch on [YouTube](https://www.youtube.com/watch?v=YGa4kcTBZ9s) or
+[Bilibili](https://www.bilibili.com/video/BV1gms96TE8j/).
+See [validation](docs/launch/validation.md) and [publication status](docs/launch/publication.md)
+for the tested scope, public links and remaining platform blockers.
+
 ## What It Does
 
 - **Create and edit images:** text-to-image and up to eight uploaded references.

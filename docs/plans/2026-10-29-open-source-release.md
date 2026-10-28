@@ -64,6 +64,7 @@ Files: `media/render_launch.py`, `docs/launch/*`; generated private evidence und
 
 - Isolation: complete; independent checkout, no production edits or service operations.
 - Security/API/UI: complete for the documented Alpha scope; 32 tests, 93% backend coverage.
-- Release validation: local builds, dependency audits, staged-tree secret scan and browser checks passed; public CI pending.
-- Video: landscape and portrait rendered and decoded; publishing pending.
+- Release validation: local builds, dependency audits, source/history secret scans and browser checks passed; public backend/frontend/container CI passed.
+- Video: landscape and portrait rendered and decoded; videos, subtitles and covers published as GitHub Release assets.
+- Publication: YouTube, Bilibili, Douyin and X published; playback verified on their public pages in the signed-in browser. Xiaohongshu and WeChat Channels are blocked; see `docs/launch/publication.md`.
 - Provider verification: deliberately not run; operator chose not to supply credentials.

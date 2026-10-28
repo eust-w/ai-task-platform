@@ -11,7 +11,7 @@ jobs:
         with:
           python-version: "3.13"
       - run: uv sync --frozen
-      - run: uv run ruff check platform_api tests scripts
+      - run: uv run ruff check platform_api tests scripts media
       - run: uv run pytest -q --cov=platform_api --cov-fail-under=80
       - run: uv run pip-audit --progress-spinner off
   frontend:
