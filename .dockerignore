@@ -1,0 +1,13 @@
+.git
+.env*
+.venv
+data
+.evidence
+output
+web/node_modules
+web/.next
+web/out
+web/test-results
+media
+tests
+__pycache__

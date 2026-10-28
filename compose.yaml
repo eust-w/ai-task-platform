@@ -1,0 +1,15 @@
+services:
+  platform:
+    build: .
+    env_file: .env
+    ports:
+      - "127.0.0.1:3310:3310"
+    volumes:
+      - platform-data:/app/data
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+volumes:
+  platform-data:
